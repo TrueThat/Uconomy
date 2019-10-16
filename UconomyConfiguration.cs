@@ -20,6 +20,7 @@ namespace fr34kyn01535.Uconomy
         public string MoneyName;
 
         public string MessageColor;
+        public string ImageURL;
 
         public void LoadDefaults()
         {
@@ -33,6 +34,7 @@ namespace fr34kyn01535.Uconomy
             MoneySymbol = "$";
             MoneyName = "Credits";
             MessageColor = "blue";
+            ImageURL = "";
         }
     }
 }
